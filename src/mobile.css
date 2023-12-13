@@ -1,0 +1,58 @@
+@media (max-width:600px){
+    h6{
+        font-size: 30px;
+        align-items: center;
+    }
+    .first-head1{
+      font-size: 20px;
+  }
+  .first-head2{
+    font-size: 30px;
+  }
+  .first-para{
+    font-size: 10px;
+    font-weight: 700;
+
+  }
+    .sixth-im-box2{
+        width: 100%;
+        margin: 0;
+      }
+      .sixth-im-box4{
+        width: 100%;
+        margin: 0;
+      }
+    .sixth-ad-box2{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2,minmax(min-content,max-content));
+        width: auto;
+        height: 50%;
+      }
+      .sixth-im-box6{
+        width: 95%;
+        margin: 0;
+      }
+      .sixth-im-box7{
+        width: 95%;
+        margin: 0;
+      }
+      .sixth-im-box8{
+        width: 95%;
+        margin: 0;
+      }
+      .sixth-im-box9{
+        width: 95%;
+        margin: 0;
+      }
+      /*eighth-page*/
+    .eighth-im1{
+      width: 120px;
+      height: 140px;
+    }
+    .eighth-im2{
+      width: 120px;
+      height: 150px;
+      float: right;
+    }
+    }
