@@ -1,5 +1,9 @@
 import {IMAGES} from '../constants/ImageConstants'
 function home() {
+  function such(){
+    document.querySelector('.hamburger').classList.toggle('open')
+    document.querySelector('.navigation').classList.toggle('active')
+  }
   return (
     <div>
       <section class="nav-box">
@@ -29,6 +33,31 @@ function home() {
       </div>
       </div>
     </section>
+    <div class="ham1">
+      <div class="ham2">
+      <img class="logo-img" src={IMAGES.LOGO} alt=""/>
+    <div class="navigation">
+        <button class="hamburger" onClick={such}>
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </button>
+        <nav>
+            <ul>
+                <li>Create</li>
+                <li>Templates</li>
+                <li>Tools</li>
+                <li>Resources</li>
+                <li>Company</li>
+                <li>Promo AI</li>
+                <li>Pricing</li>
+                <li>Log In</li>
+                <li>Sign In</li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    </div>
   {/*fisrt-page*/}
     <div class="first-box">
       <div class="first-box1">
@@ -104,7 +133,7 @@ function home() {
       <div class="third-page1">
         <div class="third-box">
           <div class="third-img1">
-          <img width="450px"  src={IMAGES.THIRDIMGONE} alt="" />
+          <img width="450px" class="th-im1" src={IMAGES.THIRDIMGONE} alt="" />
           </div>
           <div class="third-box1">
             <h3 class="third-txt1">The Smartest Way to Make Videos</h3>
@@ -119,7 +148,7 @@ function home() {
         {/*th-box1*/}
         <div class="third-page2">
           <div class="third-img2">
-          <img width="450px" src={IMAGES.THIRDIMGTWO} alt="" />
+          <img width="450px" class="th-im2" src={IMAGES.THIRDIMGTWO} alt="" />
           </div>
           <div class="third-box2">
             <h3 class="third-txt2">Time is Money, and Promo Saves Both!</h3>
@@ -136,7 +165,7 @@ function home() {
         {/*th-box2*/}
         <div class="third-page3">
           <div class="third-img3">
-          <img width="450px"  src={IMAGES.THIRDIMGTHREE} alt="" />
+          <img width="450px"  class="th-im3" src={IMAGES.THIRDIMGTHREE} alt="" />
           </div>
           <div class="third-box3">
             <h3 class="third-txt3">Time is Money, and Promo Saves Both!</h3>
@@ -153,7 +182,7 @@ function home() {
         {/*th-box3*/}
         <div class="third-page4">
           <div class="third-img4">
-          <img width="450px"  src={IMAGES.THIRDIMGFOUR} alt="" />
+          <img width="450px"  class="th-im4" src={IMAGES.THIRDIMGFOUR} alt="" />
           </div>
           <div class="third-box4">
             <h3 class="third-txt4">Time is Money, and Promo Saves Both!</h3>
@@ -170,7 +199,7 @@ function home() {
         {/*th-box4*/}
         <div class="third-page5">
           <div class="third-img5">
-          <img width="450px"  src={IMAGES.THIRDIMGFIVE} alt="" />
+          <img width="450px"  class="th-im5" src={IMAGES.THIRDIMGFIVE} alt="" />
           </div>
           <div class="third-box5">
             <h3 class="third-txt5">Time is Money, and Promo Saves Both!</h3>
@@ -187,7 +216,7 @@ function home() {
         {/*th-box5*/}
         <div class="third-page6">
           <div class="third-img6">
-          <img width="450px"  src={IMAGES.THIRDIMGSIX} alt="" />
+          <img width="450px"  class="th-im6" src={IMAGES.THIRDIMGSIX} alt="" />
           </div>
           <div class="third-box6">
             <h3 class="third-txt6">Time is Money, and Promo Saves Both!</h3>
@@ -727,18 +756,25 @@ Preview
       <div class="nin-box7">
         <div class="nin-txt-tit2">follow us</div>
         <div class="ninth-font">
-        <img width="30px" href="https://www.facebook.com/" src={IMAGES.NINETHIMGSEVEN} alt=""/>
-        <img width="40px" href="https://www.instagram.com/" src={IMAGES.NINETHIMGEIGHT} alt=""/>
-        <img width="36px" href="https://www.youtube.com/" src={IMAGES.NINETHIMGNINE} alt=""/>
-        <img width="37px" height="40px" href="https://twitter.com/login/" src={IMAGES.NINETHIMGTEN} alt=""/>
-        <img width="37px" href="https://in.linkedin.com/" src={IMAGES.NINETHIMGELEVEN} alt=""/>
-        <img width="35px" href="https://www.facebook.com/" src={IMAGES.NINETHIMGTWELVE} alt=""/>
+          <a href="https://www.facebook.com/" target="_blank" rel='noreferrer'>
+        <img width="30px"  src={IMAGES.NINETHIMGSEVEN} alt="facebook"/></a>
+        <a href="https://www.instagram.com/" target="_blank" rel='noreferrer'>
+        <img width="40px"  src={IMAGES.NINETHIMGEIGHT} alt="instagram"/></a>
+        <a href="https://www.youtube.com/" target="_blank" rel='noreferrer'>
+        <img width="36px"  src={IMAGES.NINETHIMGNINE} alt="youtube"/></a>
+        <a href="https://twitter.com/login/" target="_blank" rel='noreferrer'>
+        <img width="37px" height="40px"  src={IMAGES.NINETHIMGTEN} alt="twitter"/></a>
+        <a href="https://in.linkedin.com/" target="_blank" rel='noreferrer'>
+        <img width="37px"  src={IMAGES.NINETHIMGELEVEN} alt="linkedin"/></a>
+        <a href="https://in.pinterest.com/" target="_blank" rel='noreferrer'>
+        <img width="35px"  src={IMAGES.NINETHIMGTWELVE} alt="pinterest"/></a>
         </div>
       </div>
     </div>
   </div>
 </div>
     </div>
+    
   );
 }
 
