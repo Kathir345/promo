@@ -121,18 +121,6 @@
       display: block;
       margin: 0;
     }
-    
-    /*eighth-page*/
-    .eighth-im1{
-      width: 160px;
-     height: 200px;
-     
-    }
-    .eighth-im2{
-      width: 90%;
-      height: 200px;
-      float: right;
-    }
     .second-row1{
       display: grid;
     grid-gap: 20px;
@@ -146,5 +134,4 @@
     .second-title{
       padding-bottom: 30px;
     }
-    }
-    
+  }
