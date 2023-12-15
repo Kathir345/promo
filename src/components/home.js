@@ -12,17 +12,11 @@ function home() {
         <div class="nav-con1">
           <div class="nav-box1">
             <span class="nav-text">Create</span>
-            <div class="arrow1"></div>
             <span class="nav-text">Templates</span>
-            <div class="arrow1"></div>
             <span class="nav-text">Tools</span>
-            <div class="arrow1"></div>
             <span class="nav-text">Resources</span>
-            <div class="arrow1"></div>
             <span class="nav-text">PromoAI</span>
-            <div class="arrow1"></div>
             <span class="nav-text">Pricing</span>
-            <div class="arrow1"></div>
           </div>
         </div>
         <div class="nav2-box">
