@@ -1,4 +1,6 @@
 import {IMAGES} from '../constants/ImageConstants'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
 function home() {
   function such(){
     document.querySelector('.hamburger').classList.toggle('open')
@@ -14,6 +16,9 @@ function home() {
         <div class="mega-menu">
             <ul>
                 <li class="Create">Create
+                <div class="arrow">
+                <FontAwesomeIcon icon={faChevronDown} />
+                 </div>
                     <div class="submenu">
                         <ul> 
                             <div class="box1">
@@ -59,6 +64,9 @@ function home() {
                         </ul>
                     </div></li>
                     <li class=" Templates"> Templates
+                    <div class="arrow">
+                <FontAwesomeIcon icon={faChevronDown} />
+                 </div>
                         <div class="submenu">
                             <ul> 
                                 <div class="box1">
@@ -112,6 +120,9 @@ function home() {
                             </ul>
                         </div></li>
                         <li class=" Tools">Tools
+                        <div class="arrow">
+                <FontAwesomeIcon icon={faChevronDown} />
+                 </div>
                             <div class="submenu">
                                 <ul> 
                                     <div class="box1">
@@ -180,6 +191,9 @@ function home() {
                                 </ul>
                             </div></li>
                             <li class="Resources">Resources
+                            <div class="arrow">
+                <FontAwesomeIcon icon={faChevronDown} />
+                 </div>
                                 <div class="submenu">
                                     <ul> 
                                         <div class="box1">
