@@ -10,14 +10,210 @@ function home() {
       <div class="nav1-box">
       <img class="logo-img" src={IMAGES.LOGO} alt=""/>
         <div class="nav-con1">
-          <div class="nav-box1">
-            <span class="nav-text">Create</span>
-            <span class="nav-text">Templates</span>
-            <span class="nav-text">Tools</span>
-            <span class="nav-text">Resources</span>
-            <span class="nav-text">PromoAI</span>
-            <span class="nav-text">Pricing</span>
-          </div>
+        <div class="menu-container">
+        <div class="mega-menu">
+            <ul>
+                <li class="Create">Create
+                    <div class="submenu">
+                        <ul> 
+                            <div class="box1">
+                            <div class="slide-bar1">
+                             <div class="product1">  
+                            <li>Social Media</li></div>
+                              <li>Daily Calendar Videos</li>
+                                <li>Facebook Videos</li>
+                                <li>Instagram Videos</li>
+                                <li>YouTube Videos</li>
+                                <li>YouTube Intro Videos</li>
+                        </div>
+                        <div class="slide-bar2">
+                            <div class="product1">  
+                                <li>Industries</li></div>
+                                    <li>Real Estate Videos</li>
+                                    <li>Fitness Videos</li>
+                                    <li>Fashion Videos</li>
+                                    <li>Restaurant Videos</li>
+                                  <li>Travel Videos</li>
+                                    
+                        </div>
+                        <div class="slide-bar3">
+                            <div class="product1">  
+                           <li>Marketing</li></div>
+                            <li>Commercial Maker</li>
+                            <li>Facebook Story Ads</li>
+                            <li>Instagram Story Ads</li>
+                            <li>LinkedIn Video Ads</li>
+                            <li>YouTube Ads</li>
+                            <li>Promo Videos</li>
+                            
+                       </div>
+                       <div class="slide-bar4">
+                        <div class="product1">  
+                       <li>E-commerce</li></div>
+                        <li>E-commerce Ads</li>
+                        <li>Amazon Video Ads</li>
+                        
+                   </div>
+                            </div>
+                    
+                        </ul>
+                    </div></li>
+                    <li class=" Templates"> Templates
+                        <div class="submenu">
+                            <ul> 
+                                <div class="box1">
+                                <div class="slide-bar1">
+                                 <div class="product1">  
+                                <li>Trending Now</li></div>
+                                  <li>Holiday Templates</li>
+                                    <li>Video Ads</li>
+                                    <li>Motivational & Inspirational</li>
+                                    <li>Birthday Greetings</li>
+                                    <li>Listicles</li>
+                            </div>
+                            <div class="slide-bar2">
+                                <div class="product1">  
+                                    <li>Marketing</li></div>
+                                        <li>Sales & Promotions</li>
+                                        <li>Short Ads</li>
+                                        <li>Slideshows</li> 
+                            </div>
+                            <div class="slide-bar3">
+                                <div class="product1">  
+                                    <li>Industries</li></div>
+                                    <li>Real Estate </li>
+                                <li>Health & Fitness</li>
+                                    <li>Beauty & Care</li>
+                                    <li>Food & Drink</li>
+                                    <li>E-commerce & Retail</li>
+                                    <li>Recruiting & HR</li>
+                                    <li>Education</li>
+                           </div>
+                           <div class="slide-bar4">
+                            <div class="product1">  
+                           <li>Social Media</li></div>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>TikTok</li>
+                            <li>YouTube</li>
+                            <li>Stories</li>
+                       </div>
+                       <div class="slide-bar5">
+                        <div class="product1">  
+                       <li>Formats</li></div>
+                        <li>Meme Videos</li>
+                        <li>6 Second Videos</li>
+                        <li>YouTube Intros</li>
+                        <li>Listicles</li>
+                        <li>Inspirational & Quotes</li>
+                   </div>
+                                </div>
+                            
+                            </ul>
+                        </div></li>
+                        <li class=" Tools">Tools
+                            <div class="submenu">
+                                <ul> 
+                                    <div class="box1">
+                                    <div class="slide-bar1">
+                                     <div class="product1">  
+                                    <li>Video Maker</li></div>
+                                        <li>Online Video Maker</li>
+                                        <li>Slideshow Maker</li>
+                                        <li>YouTube Intro Maker</li>
+                                        <li>Lyric Video Maker</li>
+                                        <li>Video Ad Maker</li>
+                                        <li>All Tools</li>
+                                        
+                                </div>
+                                <div class="slide-bar2">
+                                    <div class="product1">  
+                                        <li>Video Editor</li></div>
+                                            <li>Online Video Editor</li>
+                                            <li>Add Audio to Video</li>
+                                            <li>Online Video Cutter</li>
+                                            <li>Online MP4 Editor</li>
+                                            <li>Video Compressor</li>
+                                            <li>Add Text to Video</li>
+                                            
+                                </div>
+                                <div class="slide-bar3">
+                                    <div class="product1">  
+                                        <li>Photos</li></div>
+                                        
+                                            <li>Free Photo Editor</li>
+                                            <li>Image Resizer</li>
+                                            <li>Free Online Collage Maker</li>
+                                            <li>Photos to Video Maker</li>
+                                            <li>YouTube Thumbnail Maker</li>
+                                            <li>Montage Maker</li>
+                                            <li>Meme Maker</li>
+                                            
+                               </div>
+                               <div class="slide-bar4">
+                                <div class="product1">  
+                               <li>GIF</li></div>
+                               
+                                <li>Video to GIF Maker</li>
+                                <li>Add Text to GIF</li>
+                                <li>GIF Editor</li>
+                                <li>Happy Birthday GIF</li>
+                                <li>Merry Christmas GIF</li>
+                                
+                           </div>
+                           <div class="slide-bar5">
+                            <div class="product1">  
+                           <li>More</li></div>
+                            <li>Social Media Calendar</li>
+                            <li>Video Production Cost Estimator
+                            </li>
+                            <li>Facebook Ad Budget Calculator
+                            </li>
+                            <li>Facebook Ads Troubleshooter
+                            </li>
+                            <li>YouTube Money Calculator</li>
+                            <li>Promo Marketing Ebook</li>
+                        
+                       </div>
+                                    </div>
+                          
+                                </ul>
+                            </div></li>
+                            <li class="Resources">Resources
+                                <div class="submenu">
+                                    <ul> 
+                                        <div class="box1">
+                                        <div class="slide-bar1">
+                                         <div class="product1">  
+                                        <li>Learn</li></div>
+                                            <li>Blog</li>
+                                            <li>Promo Academy</li>
+                                            <li>Knowledge base</li>
+                                            <li>FAQ</li>
+                                            
+                                            
+                                    </div>
+                                    <div class="slide-bar2">
+                                        <div class="product1">  
+                                            <li>Tips & Tutorials</li></div>
+                                                <li>Video Marketing 101</li>
+                                                <li>How to create winning videos</li>
+                                                <li>7 Things You Could Do With Promo</li>
+                                                <li>How to Add Music to a Video</li>
+                                                <li>How to Add Subtitles to a Video</li>
+                                                <li>The Complete Guide to Video Aspect Ratios</li>
+                                                
+                                    </div>
+                                        </div>
+                                  
+                                    </ul>
+                                </div></li>
+                                <li class=" Tools">PromoAI</li>
+                                <li class=" Tools">Pricing</li>
+        
+            </ul>
+        </div>
+    </div>
         </div>
         <div class="nav2-box">
         <span class="nav-text2">Login</span>
@@ -730,7 +926,15 @@ Preview
         </ul>
       </div>
     </div>
+    <div class="ninth-con3">
+    <nav><ul><li>Company</li>
+    <li>Support</li>
+    <li>Product</li>
+    <li>Tools</li>
+    </ul></nav>
+    </div>
     <div class="ninth-con2">
+
       <div class="nin-box5">
         <div class="nin-logo">
           <img width="120px" src={IMAGES.LOGO} alt=""/>
