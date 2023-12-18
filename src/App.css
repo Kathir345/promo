@@ -28,7 +28,6 @@ padding: 20px 10px 10px 10px;
     background-color:rgb(254, 250, 250);            
     max-width:1000px;
     width: 100%;
-    padding: 5px 0 0 10px;
 }
 .nav-box1{
   font-size: 18px;
@@ -2458,6 +2457,9 @@ margin-right: 20px;
   width: 100%;
   cursor: pointer;
 }
+.ninth-con3{
+display: none;
+}
 .ham1{
   display: none;
 }
@@ -2572,4 +2574,52 @@ nav{
     background-color: black; 
     transform: rotate(-45deg) translate(6px, -5px); 
 }
+}
+.menu-container {
+  position: relative;
+}
+
+.mega-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.mega-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  font-family: Wes FY,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.mega-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  top: 100%;
+  background-color: #fff;
+  width: 1500px;
+  left: 0;
+}
+.mega-menu li:hover .submenu {
+  display: block;
+}
+.box1{
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.product1{
+  font-size: 20px;
+  font-weight: 900;
 }
