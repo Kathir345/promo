@@ -64,7 +64,7 @@ function home() {
                         </ul>
                     </div></li>
                     <li class=" Templates"> Templates
-                    <div class="arrow">
+                    <div class="arrow1">
                 <FontAwesomeIcon icon={faChevronDown} />
                  </div>
                         <div class="submenu">
@@ -120,7 +120,7 @@ function home() {
                             </ul>
                         </div></li>
                         <li class=" Tools">Tools
-                        <div class="arrow">
+                        <div class="arrow2">
                 <FontAwesomeIcon icon={faChevronDown} />
                  </div>
                             <div class="submenu">
@@ -191,7 +191,7 @@ function home() {
                                 </ul>
                             </div></li>
                             <li class="Resources">Resources
-                            <div class="arrow">
+                            <div class="arrow3">
                 <FontAwesomeIcon icon={faChevronDown} />
                  </div>
                                 <div class="submenu">
@@ -222,8 +222,8 @@ function home() {
                                   
                                     </ul>
                                 </div></li>
-                                <li class=" Tools">PromoAI</li>
-                                <li class=" Tools">Pricing</li>
+                                <li class=" promoAI">PromoAI</li>
+                                <li class=" pricing">Pricing</li>
         
             </ul>
         </div>
