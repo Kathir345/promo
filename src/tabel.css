@@ -77,20 +77,22 @@
       height: 50%;
     }
     .sixth-im-box1{
-      width: 100%;
+      width: 90%;
       margin: 0;
     }
     .sixth-im-box2{
-      width: 80%;
+      width: 75%;
       margin: 0;
+      margin-left: 20px;
     }
     .sixth-im-box3{
-      width: 100%;
+      width: 90%;
       margin: 0;
     }
     .sixth-im-box4{
-      width: 80%;
+      width: 75%;
       margin: 0;
+      margin-left: 20px;
     }
     /*sixth-box2*/
     .sixth-ad-box2{
@@ -130,6 +132,14 @@
     .second-img{
       width: 100px;
       margin: 20px;
+    }
+    .second-img1{
+      width: 100px;
+      margin:33px 20px 20px 20px;
+    }
+    .second-img2{
+      width: 100px;
+      margin:25px 20px 20px 20px;
     }
     .second-title{
       padding-bottom: 30px;

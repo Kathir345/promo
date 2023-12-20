@@ -26,29 +26,34 @@ padding: 20px 10px 10px 10px;
   }
   .logo-img{
     width: 120px;
+    margin-left: 5px;
   }
 .nav-con1{
     background-color:rgb(254, 250, 250);            
     max-width:1000px;
     width: 100%;
+    margin-left: 20px;
 }
 .nav-box1{
   font-size: 18px;
   color: black;
   font-family: Wes FY,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 500;
+
 }
 .nav2-box{
-    max-width: 240px;
+    max-width: 220px;
     width: 100%;
     position: relative;
     padding-top: 5px;
-    margin-left: 30px;
+    margin-left: 150px;
+
 }
 .nav-text2{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500px;
   cursor: pointer;
+  margin-left: 20px;
 }
 .nav-con2{
   float: right;
@@ -83,7 +88,7 @@ padding: 20px 10px 10px 10px;
   position: relative;
   float: left;
   width: 100%;
-  padding: 120px 10px 40px;
+  padding: 190px 10px 40px;
   box-sizing: border-box;
 }
 .first-box1{
@@ -126,7 +131,7 @@ padding: 20px 10px 10px 10px;
 }
 .first-btn-con{
   margin-top: 20px;
-  max-width: 340px;
+  max-width: 360px;
 }
 .first-btn1{
   width: 190px;
@@ -148,25 +153,24 @@ padding: 20px 10px 10px 10px;
   margin-top: 5px;
 }
 .first-icon{
-  color: black;
-  font-size: 15px;
-  font-weight: 100;
+  color: rgba(20, 14, 14, 0.901);
+  font-size: 18px;
+  font-weight: 200;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   cursor: pointer;
   box-sizing: border-box;
-  width: 130px;
-  height: 30px;
-  border: 1px solid #0c0000;
-  border-radius: 500px;
   display: inline-block;
   line-height: 31px;
   text-align: center;
   text-decoration: none;
   letter-spacing: .5px;
   background-color: white;
+  margin-left: 10px;
+}
+.video-btn:hover{
+  color: red;
 }
 .first-icon:hover{
-  opacity: 1;
   color: red;
 }
 .first-img1{
@@ -227,6 +231,15 @@ padding: 20px 10px 10px 10px;
   margin-left: 60px;
   width: 100px;
 }
+.second-img1{
+  margin-left: 60px;
+  width: 100px;
+}
+.second-img2{
+  margin-left: 60px;
+  width: 100px;
+}
+
 @media (max-width: 1110px) {
   .second-row1 {
     display: grid;
@@ -292,11 +305,12 @@ padding: 20px 10px 10px 10px;
   text-align: left;
 }
 .third-para{
-  color: black;
-  font-size: 18px;
+  color: rgba(20, 16, 16, 0.948);
+  font-size: 15px;
   margin-top: 10px;
   letter-spacing: .4px;
   text-align: left;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .third-btn1{
   max-width: 240px;
@@ -350,6 +364,8 @@ padding: 20px 10px 10px 10px;
   margin-top: 10px;
   letter-spacing: .4px;
   text-align: left;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 .third-btn2{
   max-width: 240px;
@@ -403,6 +419,8 @@ padding: 20px 10px 10px 10px;
   margin-top: 10px;
   letter-spacing: .4px;
   text-align: left;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 .third-btn3{
   max-width: 240px;
@@ -456,6 +474,7 @@ padding: 20px 10px 10px 10px;
   margin-top: 10px;
   letter-spacing: .4px;
   text-align: left;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .third-btn4{
   max-width: 240px;
@@ -502,6 +521,7 @@ padding: 20px 10px 10px 10px;
   font-weight: 900;
   letter-spacing: .2px;
   text-align: left;
+  
 }
 .third-para5{
   color: black;
@@ -509,6 +529,7 @@ padding: 20px 10px 10px 10px;
   margin-top: 10px;
   letter-spacing: .4px;
   text-align: left;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .third-btn5{
   max-width: 240px;
@@ -562,6 +583,7 @@ padding: 20px 10px 10px 10px;
   margin-top: 10px;
   letter-spacing: .4px;
   text-align: left;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .third-btn6{
   max-width: 240px;
@@ -2057,6 +2079,10 @@ content: attr(title);
 .seven-img{
   margin: 20px;
 }
+.seven-img1{
+  margin: 20px;
+  margin-top: 40px;
+}
 .seventh-title{
   display: block;
 }
@@ -2478,7 +2504,7 @@ display: none;
   display: none;
 }
 .first-box{
-  padding-top: 240px;
+  padding-top: 160px;
 }
  .ham1{
   background:white;
@@ -2617,7 +2643,7 @@ nav{
   left: 0;
 }
 .mega-menu li:hover .submenu {
-  display: block;
+  display: flex;
 }
 .box1{
   margin-top: 60px;
@@ -2635,10 +2661,10 @@ nav{
   padding: 0px 0 0 50px;
   position: absolute;
   width:14px;
+  transition:all 0s ease;
 }
 .arrow:hover{
   transform: rotateX(-180deg);
-  transition: all .0s ease;
 }
 .arrow1{
   font-size: 12px;
@@ -2646,6 +2672,7 @@ nav{
   padding: 0px 0 0 70px;
   position: absolute;
   width: max-content;
+  transition: all .0s ease;
 }
 .arrow1:hover{
   transform: rotateX(180deg);
@@ -2657,6 +2684,7 @@ nav{
   padding: 0px 0 0 35px;
   position: absolute;
   width: max-content;
+  transition: all .0s ease;
 }
 .arrow2:hover{
   transform: rotateX(-180deg);
@@ -2668,6 +2696,7 @@ nav{
   padding: 0px 0 0 78px;
   position: absolute;
   width: max-content;
+  transition: all .0s ease;
 }
 .arrow3:hover{
   transform: rotateX(-180deg);
@@ -2685,4 +2714,37 @@ nav{
 }
 .promoAI{
 margin-left: 10px;
+}
+.promoAI:hover{
+  color: #ff4070;
+}
+.Create:hover{
+  color:  #ff4070;
+}
+.Templates:hover{
+  color:  #ff4070;
+}
+.Tools:hover{
+  color:  #ff4070;
+}
+.Resources:hover{
+  color: #ff4070;
+}
+.pricing:hover{
+  color: #ff4070;
+}
+.product1:hover{
+   color: black;
+}
+.product1{
+  color: black;
+  font-size: 15px;
+  font-weight: 800;
+}
+.cr-1{
+  color: black;
+  font-size:14px ;
+}
+.cr-1:hover{
+  color:#ff4070;
 }

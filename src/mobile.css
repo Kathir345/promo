@@ -10,15 +10,16 @@
     font-size: 30px;
   }
   .first-para{
-    font-size: 10px;
-    font-weight: 700;
-
+    font-size: 13px;
+    font-weight: 200;
   }
-    .sixth-im-box2{
+  /*sixth-page*/
+  .sixth-im-box2{
         width: 100%;
         margin: 0;
       }
-      .sixth-im-box4{
+      
+  .sixth-im-box4{
         width: 100%;
         margin: 0;
       }
