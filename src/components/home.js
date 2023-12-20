@@ -1,6 +1,6 @@
 import {IMAGES} from '../constants/ImageConstants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import {faChevronDown,faCirclePlay} from '@fortawesome/free-solid-svg-icons'
 function home() {
   function such(){
     document.querySelector('.hamburger').classList.toggle('open')
@@ -16,7 +16,7 @@ function home() {
         <div class="mega-menu">
             <ul>
                 <li class="Create">Create
-                <div class="arrow">
+                <div id="rr" class="arrow">
                 <FontAwesomeIcon icon={faChevronDown} />
                  </div>
                     <div class="submenu">
@@ -25,39 +25,58 @@ function home() {
                             <div class="slide-bar1">
                              <div class="product1">  
                             <li>Social Media</li></div>
-                              <li>Daily Calendar Videos</li>
-                                <li>Facebook Videos</li>
-                                <li>Instagram Videos</li>
-                                <li>YouTube Videos</li>
+                            <div class="cr-1">
+                              <li>Daily Calendar Videos</li></div>
+                              <div class="cr-1">
+                                <li>Facebook Videos</li></div>
+                                <div class="cr-1">
+                                <li>Instagram Videos</li></div>
+                                <div class="cr-1">
+                                <li>YouTube Videos</li></div>
+                                <div class="cr-1">
                                 <li>YouTube Intro Videos</li>
+                                </div>
                         </div>
                         <div class="slide-bar2">
                             <div class="product1">  
                                 <li>Industries</li></div>
-                                    <li>Real Estate Videos</li>
-                                    <li>Fitness Videos</li>
-                                    <li>Fashion Videos</li>
-                                    <li>Restaurant Videos</li>
+                                <div class="cr-1">
+                                    <li>Real Estate Videos</li></div>
+                                    <div class="cr-1">
+                                    <li>Fitness Videos</li></div>
+                                    <div class="cr-1">
+                                    <li>Fashion Videos</li></div>
+                                    <div class="cr-1">
+                                    <li>Restaurant Videos</li></div>
+                                    <div class="cr-1">
                                   <li>Travel Videos</li>
-                                    
+                                    </div>
                         </div>
                         <div class="slide-bar3">
                             <div class="product1">  
                            <li>Marketing</li></div>
-                            <li>Commercial Maker</li>
-                            <li>Facebook Story Ads</li>
-                            <li>Instagram Story Ads</li>
-                            <li>LinkedIn Video Ads</li>
-                            <li>YouTube Ads</li>
+                           <div class="cr-1">
+                            <li>Commercial Maker</li></div>
+                            <div class="cr-1">
+                            <li>Facebook Story Ads</li></div>
+                            <div class="cr-1">
+                            <li>Instagram Story Ads</li></div>
+                            <div class="cr-1">
+                            <li>LinkedIn Video Ads</li></div>
+                            <div class="cr-1">
+                            <li>YouTube Ads</li></div>
+                            <div class="cr-1">
                             <li>Promo Videos</li>
-                            
+                            </div>
                        </div>
                        <div class="slide-bar4">
                         <div class="product1">  
                        <li>E-commerce</li></div>
-                        <li>E-commerce Ads</li>
+                       <div class="cr-1">
+                        <li>E-commerce Ads</li></div>
+                        <div class="cr-1">
                         <li>Amazon Video Ads</li>
-                        
+                        </div>
                    </div>
                             </div>
                     
@@ -73,47 +92,72 @@ function home() {
                                 <div class="slide-bar1">
                                  <div class="product1">  
                                 <li>Trending Now</li></div>
-                                  <li>Holiday Templates</li>
-                                    <li>Video Ads</li>
-                                    <li>Motivational & Inspirational</li>
-                                    <li>Birthday Greetings</li>
-                                    <li>Listicles</li>
+                                <div class="cr-1">
+                                  <li>Holiday Templates</li></div>
+                                  <div class="cr-1">
+                                    <li>Video Ads</li></div>
+                                    <div class="cr-1">
+                                    <li>Motivational & Inspirational</li></div>
+                                    <div class="cr-1">
+                                    <li>Birthday Greetings</li></div>
+                                    <div class="cr-1">
+                                    <li>Listicles</li></div>
                             </div>
                             <div class="slide-bar2">
                                 <div class="product1">  
                                     <li>Marketing</li></div>
-                                        <li>Sales & Promotions</li>
-                                        <li>Short Ads</li>
-                                        <li>Slideshows</li> 
+                                    <div class="cr-1">
+                                        <li>Sales & Promotions</li></div>
+                                        <div class="cr-1">
+                                        <li>Short Ads</li></div>
+                                        <div class="cr-1">
+                                        <li>Slideshows</li></div>
                             </div>
                             <div class="slide-bar3">
                                 <div class="product1">  
                                     <li>Industries</li></div>
-                                    <li>Real Estate </li>
-                                <li>Health & Fitness</li>
-                                    <li>Beauty & Care</li>
-                                    <li>Food & Drink</li>
-                                    <li>E-commerce & Retail</li>
-                                    <li>Recruiting & HR</li>
-                                    <li>Education</li>
+                                    <div class="cr-1">
+                                    <li>Real Estate </li></div>
+                                    <div class="cr-1">
+                                <li>Health & Fitness</li></div>
+                                <div class="cr-1">
+                                    <li>Beauty & Care</li></div>
+                                    <div class="cr-1">
+                                    <li>Food & Drink</li></div>
+                                    <div class="cr-1">
+                                    <li>E-commerce & Retail</li></div>
+                                    <div class="cr-1">
+                                    <li>Recruiting & HR</li></div>
+                                    <div class="cr-1">
+                                    <li>Education</li></div>
                            </div>
                            <div class="slide-bar4">
                             <div class="product1">  
                            <li>Social Media</li></div>
-                            <li>Facebook</li>
-                            <li>Instagram</li>
-                            <li>TikTok</li>
-                            <li>YouTube</li>
-                            <li>Stories</li>
+                           <div class="cr-1">
+                            <li>Facebook</li></div>
+                            <div class="cr-1">
+                            <li>Instagram</li></div>
+                            <div class="cr-1">
+                            <li>TikTok</li></div>
+                            <div class="cr-1">
+                            <li>YouTube</li></div>
+                            <div class="cr-1">
+                            <li>Stories</li></div>
                        </div>
                        <div class="slide-bar5">
                         <div class="product1">  
                        <li>Formats</li></div>
-                        <li>Meme Videos</li>
-                        <li>6 Second Videos</li>
-                        <li>YouTube Intros</li>
-                        <li>Listicles</li>
-                        <li>Inspirational & Quotes</li>
+                       <div class="cr-1">
+                        <li>Meme Videos</li></div>
+                        <div class="cr-1">
+                        <li>6 Second Videos</li></div>
+                        <div class="cr-1">
+                        <li>YouTube Intros</li></div>
+                        <div class="cr-1">
+                        <li>Listicles</li></div>
+                        <div class="cr-1">
+                        <li>Inspirational & Quotes</li></div>
                    </div>
                                 </div>
                             
@@ -129,61 +173,87 @@ function home() {
                                     <div class="slide-bar1">
                                      <div class="product1">  
                                     <li>Video Maker</li></div>
-                                        <li>Online Video Maker</li>
-                                        <li>Slideshow Maker</li>
-                                        <li>YouTube Intro Maker</li>
-                                        <li>Lyric Video Maker</li>
-                                        <li>Video Ad Maker</li>
-                                        <li>All Tools</li>
+                                    <div class="cr-1">
+                                        <li>Online Video Maker</li></div>
+                                        <div class="cr-1">
+                                        <li>Slideshow Maker</li></div>
+                                        <div class="cr-1">
+                                        <li>YouTube Intro Maker</li></div>
+                                        <div class="cr-1">
+                                        <li>Lyric Video Maker</li></div>
+                                        <div class="cr-1">
+                                        <li>Video Ad Maker</li></div>
+                                        <div class="cr-1">
+                                        <li>All Tools</li></div>
                                         
                                 </div>
                                 <div class="slide-bar2">
                                     <div class="product1">  
                                         <li>Video Editor</li></div>
-                                            <li>Online Video Editor</li>
-                                            <li>Add Audio to Video</li>
-                                            <li>Online Video Cutter</li>
-                                            <li>Online MP4 Editor</li>
-                                            <li>Video Compressor</li>
-                                            <li>Add Text to Video</li>
+                                        <div class="cr-1">
+                                        <li>Online Video Editor</li></div>
+                                        <div class="cr-1">
+                                        <li>Add Audio to Video</li></div>
+                                        <div class="cr-1">
+                                        <li>Online Video Cutter</li></div>
+                                        <div class="cr-1">
+                                        <li>Video Compressor</li></div>
+                                        <div class="cr-1">
+                                        <li>Add Text to Video</li></div>
                                             
                                 </div>
                                 <div class="slide-bar3">
                                     <div class="product1">  
                                         <li>Photos</li></div>
-                                        
-                                            <li>Free Photo Editor</li>
-                                            <li>Image Resizer</li>
-                                            <li>Free Online Collage Maker</li>
-                                            <li>Photos to Video Maker</li>
-                                            <li>YouTube Thumbnail Maker</li>
-                                            <li>Montage Maker</li>
-                                            <li>Meme Maker</li>
+                                        <div class="cr-1">
+                                            <li>Free Photo Editor</li></div>
+                                            <div class="cr-1">
+                                            <li>Image Resizer</li></div>
+                                            <div class="cr-1">
+                                            <li>Free Online Collage Maker</li></div>
+                                            <div class="cr-1">
+                                            <li>Photos to Video Maker</li></div>
+                                            <div class="cr-1">
+                                            <li>YouTube Thumbnail Maker</li></div>
+                                            <div class="cr-1">
+                                            <li>Montage Maker</li></div>
+                                            <div class="cr-1">
+                                            <li>Meme Maker</li></div>
                                             
                                </div>
                                <div class="slide-bar4">
                                 <div class="product1">  
                                <li>GIF</li></div>
-                               
-                                <li>Video to GIF Maker</li>
-                                <li>Add Text to GIF</li>
-                                <li>GIF Editor</li>
-                                <li>Happy Birthday GIF</li>
-                                <li>Merry Christmas GIF</li>
+                               <div class="cr-1">
+                                <li>Video to GIF Maker</li></div>
+                                <div class="cr-1">
+                                <li>Add Text to GIF</li></div>
+                                <div class="cr-1">
+                                <li>GIF Editor</li></div>
+                                <div class="cr-1">
+                                <li>Happy Birthday GIF</li></div>
+                                <div class="cr-1">
+                                <li>Merry Christmas GIF</li></div>
                                 
                            </div>
                            <div class="slide-bar5">
                             <div class="product1">  
                            <li>More</li></div>
-                            <li>Social Media Calendar</li>
+                           <div class="cr-1">
+                            <li>Social Media Calendar</li></div>
+                            <div class="cr-1">
                             <li>Video Production Cost Estimator
-                            </li>
+                            </li></div>
+                            <div class="cr-1">
                             <li>Facebook Ad Budget Calculator
-                            </li>
+                            </li></div>
+                            <div class="cr-1">
                             <li>Facebook Ads Troubleshooter
-                            </li>
-                            <li>YouTube Money Calculator</li>
-                            <li>Promo Marketing Ebook</li>
+                            </li></div>
+                            <div class="cr-1">
+                            <li>YouTube Money Calculator</li></div>
+                            <div class="cr-1">
+                            <li>Promo Marketing Ebook</li></div>
                         
                        </div>
                                     </div>
@@ -200,22 +270,32 @@ function home() {
                                         <div class="slide-bar1">
                                          <div class="product1">  
                                         <li>Learn</li></div>
-                                            <li>Blog</li>
-                                            <li>Promo Academy</li>
-                                            <li>Knowledge base</li>
-                                            <li>FAQ</li>
+                                        <div class="cr-1">
+                                            <li>Blog</li></div>
+                                            <div class="cr-1">
+                                            <li>Promo Academy</li></div>
+                                            <div class="cr-1">
+                                            <li>Knowledge base</li></div>
+                                            <div class="cr-1">
+                                            <li>FAQ</li></div>
                                             
                                             
                                     </div>
                                     <div class="slide-bar2">
                                         <div class="product1">  
                                             <li>Tips & Tutorials</li></div>
-                                                <li>Video Marketing 101</li>
-                                                <li>How to create winning videos</li>
-                                                <li>7 Things You Could Do With Promo</li>
-                                                <li>How to Add Music to a Video</li>
-                                                <li>How to Add Subtitles to a Video</li>
-                                                <li>The Complete Guide to Video Aspect Ratios</li>
+                                            <div class="cr-1">
+                                                <li>Video Marketing 101</li></div>
+                                                <div class="cr-1">
+                                                <li>How to create winning videos</li></div>
+                                                <div class="cr-1">
+                                                <li>7 Things You Could Do With Promo</li></div>
+                                                <div class="cr-1">
+                                                <li>How to Add Music to a Video</li></div>
+                                                <div class="cr-1">
+                                                <li>How to Add Subtitles to a Video</li></div>
+                                                <div class="cr-1">
+                                                <li>The Complete Guide to Video Aspect Ratios</li></div>
                                                 
                                     </div>
                                         </div>
@@ -279,7 +359,8 @@ function home() {
           <div class="first-btn-con">
             <button class="first-btn1">Sign up for free</button>
             <div class="first-btn2">
-              <div class="first-icon">watch video</div>
+              <div class="video-btn"><FontAwesomeIcon icon={faCirclePlay} />
+              <div class="first-icon">watch video</div></div>
             </div>
           </div>
         </div>
@@ -312,7 +393,7 @@ function home() {
         />
         <img
           width="130px"
-          class="second-img"
+          class="second-img2"
           src={IMAGES.SECONDIMGTHREE}
           alt=""
         />
@@ -324,7 +405,7 @@ function home() {
         />
         <img
           width="150px"
-          class="second-img"
+          class="second-img1"
           src={IMAGES.SECONDIMGFIVE}
           alt=""
         />
@@ -372,13 +453,10 @@ function home() {
           <img width="450px"  class="th-im3" src={IMAGES.THIRDIMGTHREE} alt="" />
           </div>
           <div class="third-box3">
-            <h3 class="third-txt3">Time is Money, and Promo Saves Both!</h3>
+            <h3 class="third-txt3">Generate and Publish - All in One Place!</h3>
             <p class="third-par3">
-              We built PromoAI, so you have more time to run your business (and
-              do more of what you love!) That's why our platform is your
-              ultimate ally in content creation. Offering a brand new chat-based
-              editor and delivering remarkable results cost-effectively and
-              efficiently.
+            PromoAI helps you manage your social media accounts right from the platform!  saving you valuable time and money on video production, scheduling, and posting. Post directly to all your social media channels with AI-generated titles and descriptions 
+
             </p>
             <button class="third-btn3">Get started</button>
           </div>
@@ -389,13 +467,10 @@ function home() {
           <img width="450px"  class="th-im4" src={IMAGES.THIRDIMGFOUR} alt="" />
           </div>
           <div class="third-box4">
-            <h3 class="third-txt4">Time is Money, and Promo Saves Both!</h3>
+            <h3 class="third-txt4">Unlimited Videos, Infinite possibilities! </h3>
             <p class="third-par4">
-              We built PromoAI, so you have more time to run your business (and
-              do more of what you love!) That's why our platform is your
-              ultimate ally in content creation. Offering a brand new chat-based
-              editor and delivering remarkable results cost-effectively and
-              efficiently.
+            Whatever the Need, Whenever the Occasion, We've Got You! From marketing masterpieces to eye-catching listicles and from social media sensations to holiday-themed delights, PromoAI generates videos from thousands of fully customizable templates for every occasion. 
+
             </p>
             <button class="third-btn4">Get started</button>
           </div>
@@ -406,13 +481,10 @@ function home() {
           <img width="450px"  class="th-im5" src={IMAGES.THIRDIMGFIVE} alt="" />
           </div>
           <div class="third-box5">
-            <h3 class="third-txt5">Time is Money, and Promo Saves Both!</h3>
+            <h3 class="third-txt5">Stand Out with Premium Stock Footage! </h3>
             <p class="third-par5">
-              We built PromoAI, so you have more time to run your business (and
-              do more of what you love!) That's why our platform is your
-              ultimate ally in content creation. Offering a brand new chat-based
-              editor and delivering remarkable results cost-effectively and
-              efficiently.
+            Unleash your creativity with unlimited premium stock footage from Getty Images and iStock. Paired with our professionally curated music tracks, your content will leave your competition in the dust! 
+
             </p>
             <button class="third-btn5">Get started</button>
           </div>
@@ -423,13 +495,10 @@ function home() {
           <img width="450px"  class="th-im6" src={IMAGES.THIRDIMGSIX} alt="" />
           </div>
           <div class="third-box6">
-            <h3 class="third-txt6">Time is Money, and Promo Saves Both!</h3>
+            <h3 class="third-txt6">An Award-Winning Video Editor for Savvy Creators! </h3>
             <p class="third-par6">
-              We built PromoAI, so you have more time to run your business (and
-              do more of what you love!) That's why our platform is your
-              ultimate ally in content creation. Offering a brand new chat-based
-              editor and delivering remarkable results cost-effectively and
-              efficiently.
+            Looking for pixel-perfect adjustments?  Promo has got your back! Whether you're in the mood for some hands-on editing or craving the convenience of automation, we've got you covered. 
+            
             </p>
             <button class="third-btn6">Get started</button>
           </div>
@@ -646,7 +715,7 @@ Preview
       </div>
       <div class="sixth-ad-box1">
         <div class="sixth-im-box1">
-      <img width="260px" class="sixth-img1" src={IMAGES.SIXTHIMGONE} alt=""/>
+      <img width="300px" class="sixth-img1" src={IMAGES.SIXTHIMGONE} alt=""/>
   <div class="six-part1 boxs-six1">
   <span class="six-text-pa1">
   See Templates
@@ -773,7 +842,7 @@ Preview
     />
     <img
       width="50px"
-      class="seven-img"
+      class="seven-img1"
       src={IMAGES.SEVENIMGSEVEN}
       alt=""
     />
