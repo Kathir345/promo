@@ -74,13 +74,13 @@ padding: 20px 10px 10px 10px;
   text-align: center;
   text-decoration: none;
   letter-spacing: .5px;
-  background-color:#ff4070;
-  border-color: #ff4070;
+  background-color:white;
+  color: rgba(44, 40, 40, 0.95);
 }
 .nav-btn2:hover{
   opacity: 1;
-  background-color: rgb(211, 80, 108);
-  border-color: rgb(211, 80, 108);
+  border-color: #ff4070;
+  background-color: #ff4070 ;
   color: white;
 }
 /*first-box*/
@@ -2747,4 +2747,22 @@ margin-left: 10px;
 }
 .cr-1:hover{
   color:#ff4070;
+}
+@media (max-width:500px)
+{
+  #slides .slide_1{
+    height: 100%;
+  }
+  #slides .slide_2{
+    height: 100%;
+  }
+  #slides .slide_3{
+    height: 100%;
+  }
+  #slides .slide_4{
+    height: 100%;
+  }
+  #controls{
+    height: 0;
+  }
 }
