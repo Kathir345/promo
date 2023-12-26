@@ -6,6 +6,34 @@ function home() {
     document.querySelector('.hamburger').classList.toggle('open')
     document.querySelector('.navigation').classList.toggle('active')
   }
+  function drop(){
+    document.querySelector('.dropdown12').classList.toggle('open')
+    document.querySelector('.dropdown').classList.toggle('active')
+  }
+  function drop1(){
+    document.querySelector('.dropdown13').classList.toggle('open')
+    document.querySelector('.dropdown1').classList.toggle('active')
+  }
+  function drop2(){
+    document.querySelector('.dropdown14').classList.toggle('open')
+    document.querySelector('.dropdown2').classList.toggle('active')
+  }
+  function drop3(){
+    document.querySelector('.dropdown15').classList.toggle('open')
+    document.querySelector('.dropdown3').classList.toggle('active')
+  }
+  function arr(){
+    document.querySelector('.arrowl1').classList.toggle('open')
+  }
+  function arr1(){
+    document.querySelector('.arrowl2').classList.toggle('open')
+  }
+  function arr2(){
+    document.querySelector('.arrowl3').classList.toggle('open')
+  }
+  function arr3(){
+    document.querySelector('.arrowl4').classList.toggle('open')
+  }
   return (
     <div>
       <section class="nav-box">
@@ -15,8 +43,8 @@ function home() {
         <div class="menu-container">
         <div class="mega-menu">
             <ul>
-                <li class="Create">Create
-                <div id="rr" class="arrow">
+                <li class="Create">Create 
+                <div class="arrow">
                 <FontAwesomeIcon icon={faChevronDown} />
                  </div>
                     <div class="submenu">
@@ -1010,11 +1038,128 @@ Preview
       </div>
     </div>
     <div class="ninth-con3">
-    <nav><ul><li>Company</li>
-    <li>Support</li>
-    <li>Product</li>
-    <li>Tools</li>
-    </ul></nav>
+    <nav>
+      <ul>
+        <div class="drop1">
+      <button class="dropdown12" onClick={drop}>Company
+      <button class="arrowl1" onClick={arr}>
+                <FontAwesomeIcon icon={faChevronDown} />
+                 </button>
+                 </button>
+      <div class="dropdown">
+        <ul class="panal">
+        <li>Pricing</li>
+<li>About</li>
+<li>Careers</li>
+<li>News & Media</li>
+<li>Affiliates</li>
+<li>Write for Us</li>
+        </ul>
+    </div>
+    </div>
+    <div class="drop1">
+      <button class="dropdown13" onClick={drop1}>Support
+      <button class="arrowl2" onClick={arr1}>
+                <FontAwesomeIcon icon={faChevronDown} />
+                 </button>
+                 </button>
+      <div class="dropdown1">
+        <ul class="panal">
+        <li> Support</li>
+<li> FAQ</li>
+<li>Knowledge Base</li>
+<li>Contact Us</li>
+<li>blog</li>
+        </ul>
+    </div>
+    </div>
+    <div class="drop1">
+      <button class="dropdown14" onClick={drop2}>Product
+      <button class="arrowl3" onClick={arr2}>
+                <FontAwesomeIcon icon={faChevronDown} />
+                 </button>
+                 </button>
+      <div class="dropdown2">
+        <ul class="panal">
+        <li>PromoAI</li>
+<li>Promo Video Maker</li>
+<li>Commercial Maker</li>
+<li>Social Media Video Maker</li>
+<li>eCommerce Ads</li>
+<li>Facebook Video Maker</li>
+<li>Facebook Video Ad Creator</li>
+<li>Facebook Story Ads</li>
+<li>Instagram Video Maker</li>
+<li>Instagram Video Ad Maker</li>
+<li>Instagram Story Ads</li>
+<li>YouTube Video Maker</li>
+<li>YouTube Ad Maker</li>
+<li>YouTube intro Maker</li>
+<li>YouTube Outro Maker</li>
+<li>LinkedIn Video Ads</li>
+<li>Twitter Video Ads</li>
+<li>Amazon Video Ads</li>
+<li>Real Estate Videos</li>
+<li>Fitness Marketing Videos</li>
+<li>Fashion Marketing Videos</li>
+<li>Restaurant Videos</li>
+<li>Beauty Marketing Videos</li>
+<li>Travel Ads</li>
+<li>Business</li>
+<li>Nonprofit Videos</li>
+       
+        </ul>
+    </div>
+    </div>
+    <div class="drop1">
+      <button class="dropdown15" onClick={drop3}>Tools
+      <button class="arrowl4" onClick={arr3}>
+                <FontAwesomeIcon icon={faChevronDown} />
+                 </button>
+                 </button>
+      <div class="dropdown3">
+        <ul class="panal">
+        <li>All Tools</li>
+<li> to video maker</li>
+<li>Online Video Maker</li>
+<li>Video Ad Maker</li>
+<li>Social Media Calendar</li>
+<li>Image Resizer</li>
+<li>Free Photo Editor</li>
+<li> Online Collage Maker</li>
+<li>Facebook Video Covers</li>
+<li>Video Production Cost Estimator</li>
+<li>Facebook Ad Budget Calculator</li>
+<li>Facebook Ads Troubleshooter</li>
+<li>YouTube Money Calculator</li>
+<li>MP4 Editor</li>
+<li>Add Music to Video</li>
+<li>Video to GIF Maker</li>
+<li>Add Text to GIF</li>
+<li>Video Editor for YouTube</li>
+<li>Meme Maker</li>
+<li>Birthday Video Maker</li>
+<li>Online Video Cutter</li>
+<li>Lyric Video Maker</li>
+<li>Add Audio to Video</li>
+<li>Add Text to Video</li>
+<li>GIF Editor</li>
+<li> Merger</li>
+<li>Video Compressor</li>
+<li>Video Resizer</li>
+<li>Youtube Thumbnail Maker</li>
+<li>Video Trimmer</li>
+<li>Add Subtitles to Video</li>
+<li>Montage Maker</li>
+<li>Video Cropper</li>
+<li>Slideshow Maker</li>
+<li>TikTok Video Editor</li>
+       
+        </ul>
+    </div>
+    </div>
+    </ul>
+    </nav>
     </div>
     <div class="ninth-con2">
 
